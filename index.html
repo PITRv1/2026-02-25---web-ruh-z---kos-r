@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
+	<link rel="stylesheet" href="stilus.css">
 </head>
 
 
 <body>
 	<div ID="kinalat">
 		<table>
-			
+			<tr>
+				<th>Termék Megnevezése</th>
+				<th>Termék képe</th>
+			</tr>
+			<tr >
+				<td class="termekek" onclick="kivalaszt(this)" onmouseenter="visszaKep()">Kingston HyperX Predator 16GB (4x4GB) DDR4 3200MHz HX432C16PB3K4/16</td>
+				<td><img class="kiskep" src="RAM.jpg" onmouseenter="nagyitKep(this)"></td>
+			</tr>
+			<tr >
+				<td class="termekek" onclick="kivalaszt(this)" onmouseenter="visszaKep()">LG 27MP59G-P Monitor</td>
+				<td><img class="kiskep" src="monitor.jpg" onmouseenter="nagyitKep(this)"></td>
+			</tr>
+			<tr >
+				<td class="termekek" onclick="kivalaszt(this)" onmouseenter="visszaKep()">Western Digital Red 3.5" 2TB 5400rpm 64MB SATA3 WD20EFRX</td>
+				<td><img class="kiskep" src="HDD.jpg" onmouseenter="nagyitKep(this)"></td>
+			</tr>
+			<tr >
+				<td class="termekek" onclick="kivalaszt(this)" onmouseenter="visszaKep()">Samsung 970 EVO 500GB M.2 PCIe MZ.V7E500BW</td>
+				<td><img class="kiskep" src="SSD.jpg" onmouseenter="nagyitKep(this)"></td>
+			</tr>
+			<tr >
+				<td class="termekek" onclick="kivalaszt(this)" onmouseenter="visszaKep()">Chieftec Smart 500W (GPS-500A8)</td>
+				<td><img class="kiskep" src="tap.jpg" onmouseenter="nagyitKep(this)"></td>
+			</tr>
 		</table>	
 	</div>
 
@@ -17,6 +41,8 @@
 
 	<div ID="kosar">
 		<h2>Kosár tartalma:</h2>
-	</div>	
+		
+	</div>
+	<script src="kod.js"></script>	
 </body>
 </html>
